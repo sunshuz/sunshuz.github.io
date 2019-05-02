@@ -96,13 +96,21 @@
 
 
 
-  <meta property="og:type" content="website">
+  <meta name="description" content="ionic3的安装、使用一、安装1、下载nodejs并安装（这里很简单，并没有什么难点，就不详细讲安装过程了。）         下载地址：https://nodejs.org/en/          打开cmd，输入node -v，如果出现如下结果就说明安装成功      2、设置文件的下载源为淘宝镜像。npm install -g cnpm --registry=https://regist">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://github.com/sunshuz/sunshuz.github.io/index.html">
+<meta property="og:url" content="https://github.com/sunshuz/sunshuz.github.io/2019/05/02/ionic/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="ionic3的安装、使用一、安装1、下载nodejs并安装（这里很简单，并没有什么难点，就不详细讲安装过程了。）         下载地址：https://nodejs.org/en/          打开cmd，输入node -v，如果出现如下结果就说明安装成功      2、设置文件的下载源为淘宝镜像。npm install -g cnpm --registry=https://regist">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="https://img-blog.csdn.net/20180331094719658?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2NDYxMTUz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:image" content="https://img-blog.csdn.net/20180331095916524?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2NDYxMTUz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:image" content="https://images0.cnblogs.com/blog2015/410080/201508/031255262678982.png">
+<meta property="og:updated_time" content="2019-03-01T06:01:37.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="ionic3的安装、使用一、安装1、下载nodejs并安装（这里很简单，并没有什么难点，就不详细讲安装过程了。）         下载地址：https://nodejs.org/en/          打开cmd，输入node -v，如果出现如下结果就说明安装成功      2、设置文件的下载源为淘宝镜像。npm install -g cnpm --registry=https://regist">
+<meta name="twitter:image" content="https://img-blog.csdn.net/20180331094719658?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2NDYxMTUz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
 
 
 
@@ -110,7 +118,7 @@
 
   
   
-  <link rel="canonical" href="https://github.com/sunshuz/sunshuz.github.io/">
+  <link rel="canonical" href="https://github.com/sunshuz/sunshuz.github.io/2019/05/02/ionic/">
 
 
 
@@ -120,7 +128,7 @@
   };
 </script>
 
-  <title>Hexo</title>
+  <title> | Hexo</title>
   
 
 
@@ -168,8 +176,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -207,7 +214,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -269,9 +276,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -304,9 +311,7 @@
         
         
           <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/05/02/ionic/" class="post-title-link" itemprop="url">Unbenannt</a>
+
               
             
           </h1>
@@ -382,9 +387,7 @@
       
 
       
-        
-          
-            <h1 id="ionic3的安装、使用"><a href="#ionic3的安装、使用" class="headerlink" title="ionic3的安装、使用"></a>ionic3的安装、使用</h1><h2 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h2><pre><code>1、下载nodejs并安装（这里很简单，并没有什么难点，就不详细讲安装过程了。）
+        <h1 id="ionic3的安装、使用"><a href="#ionic3的安装、使用" class="headerlink" title="ionic3的安装、使用"></a>ionic3的安装、使用</h1><h2 id="一、安装"><a href="#一、安装" class="headerlink" title="一、安装"></a>一、安装</h2><pre><code>1、下载nodejs并安装（这里很简单，并没有什么难点，就不详细讲安装过程了。）
 
        下载地址：https://nodejs.org/en/
 
@@ -459,8 +462,6 @@ C:\Program Files (x86)\Android\android-sdk\platform-tools;
 <p>四、签名应用文件</p>
 <p>把在第二步生成的test.apk拷贝到与生成的keystore同一目录下，也就是项目的主目录下，执行命令：jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore demo.keystore test.apk moon，输入签名文件的密码，成功之后主目录下的test.apk就被签名成功了，会比原来未被签名的apk文件大一点，能够安装到手机或android虚拟机上了。</p>
 
-          
-        
       
     </div>
 
@@ -483,175 +484,28 @@ C:\Program Files (x86)\Android\android-sdk\platform-tools;
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://github.com/sunshuz/sunshuz.github.io/2019/05/01/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="sunshuz">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/05/01/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-              
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
+              <a href="/2019/05/01/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
             
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Veröffentlicht am</span>
-              
-
-              
-                
-              
-
-              <time title="Erstellt: 2019-05-01 20:27:52" itemprop="dateCreated datePublished" datetime="2019-05-01T20:27:52+09:00">2019-05-01</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Bearbeitet am</span>
-                
-                <time title="Geändert am: 2019-05-02 21:10:48" itemprop="dateModified" datetime="2019-05-02T21:10:48+09:00">2019-05-02</time>
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>My frist html5: <a href="https://sunshuz.github.io/myH5/001basic/test.html" target="_blank" rel="noopener">MyH5</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -661,14 +515,15 @@ C:\Program Files (x86)\Android\android-sdk\platform-tools;
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -688,8 +543,17 @@ C:\Program Files (x86)\Android\android-sdk\platform-tools;
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -735,6 +599,23 @@ C:\Program Files (x86)\Android\android-sdk\platform-tools;
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#ionic3的安装、使用"><span class="nav-number">1.</span> <span class="nav-text">ionic3的安装、使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、安装"><span class="nav-number">1.1.</span> <span class="nav-text">一、安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建ionic项目"><span class="nav-number">1.2.</span> <span class="nav-text">创建ionic项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#启动ionic项目"><span class="nav-number">1.3.</span> <span class="nav-text">启动ionic项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、其他"><span class="nav-number">1.4.</span> <span class="nav-text">二、其他</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#下载Android-Studio"><span class="nav-number">1.4.1.</span> <span class="nav-text">下载Android Studio</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装Ionic-和-Cordova"><span class="nav-number">1.4.2.</span> <span class="nav-text">安装Ionic 和 Cordova</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#调试"><span class="nav-number">1.5.</span> <span class="nav-text">调试</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#命令"><span class="nav-number">1.5.1.</span> <span class="nav-text">命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#其他网址"><span class="nav-number">1.5.2.</span> <span class="nav-text">其他网址</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#打包"><span class="nav-number">1.5.3.</span> <span class="nav-text">打包</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#一、添加android平台"><span class="nav-number">1.5.3.1.</span> <span class="nav-text">一、添加android平台</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -863,6 +744,10 @@ C:\Program Files (x86)\Android\android-sdk\platform-tools;
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.1"></script>
+<script src="/js/post-details.js?v=7.1.1"></script>
+
+
 
   
 
@@ -878,6 +763,8 @@ C:\Program Files (x86)\Android\android-sdk\platform-tools;
 
   
 
+
+  
 
 
   
