@@ -1794,7 +1794,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d27501;
+  background: #78ccd5;
 }
 .feed-link,
 .chat {
@@ -2736,10 +2736,10 @@ hr {
   }
 }
 body {
-  background: url("https://github.com/sunshuz/myH5/blob/master/001basic/images/1.jpg");
+  background: url("https://github.com/sunshuz/myH5/blob/master/001basic/images/1.jpg?raw=true");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 50%;
+  background-position: 80% 80%;
 }
 .headband {
   height: 1.5px;
