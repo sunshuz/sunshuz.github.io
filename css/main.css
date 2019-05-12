@@ -1794,7 +1794,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff53;
+  background: #59aa03;
 }
 .feed-link,
 .chat {
@@ -2740,72 +2740,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 80% 80%;
-}
-.headband {
-  height: 1.5px;
-  background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
-}
-.header {
-  line-height: 1.5;
-}
-.header-inner {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.posts-expand {
-  padding-top: 0px;
-}
-.posts-expand .post-meta {
-  margin: 5px 0px 0px 0px;
-}
-.post-button {
-  margin-top: 0px;
-}
-.container .header-inner {
-  width: 80%;
-}
-.site-meta {
-  background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
-}
-.brand {
-  background-color: rgba(255,255,255,0);
-  margin-top: 15px;
-  padding: 0px;
-}
-.site-title {
-  font-size: 75px;
-  font-weight: bold;
-  color: #fff;
-  line-height: 80px;
-  letter-spacing: 3px;
-}
-.site-subtitle {
-  margin: 0px;
-  font-size: 16px;
-  letter-spacing: 1px;
-  padding-bottom: 3px;
-  font-weight: bold;
-  color: #fff;
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-  border-bottom-color: #a166ab;
-}
-.menu {
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding: 5px;
-  background-color: rgba(255,255,255,0.75);
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.15);
-}
-.menu .menu-item a {
-  font-size: 15px;
-}
-.menu .menu-item {
-  margin: 5px 1px;
-}
-.menu .menu-item a:hover {
-  border-bottom-color: rgba(161,102,171,0);
 }
 .post {
   margin-bottom: 50px;
