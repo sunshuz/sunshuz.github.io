@@ -1794,7 +1794,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #59aa03;
+  background: #c15983;
 }
 .feed-link,
 .chat {
@@ -2741,15 +2741,27 @@ body {
   background-attachment: fixed;
   background-position: 80% 80%;
 }
+.header {
+  line-height: 1.5;
+}
+.header-inner {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.site-meta {
+  background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
+}
+.menu .menu-item {
+  margin: 5px 1px;
+}
+.menu .menu-item a:hover {
+  border-bottom-color: rgba(161,102,171,0);
+}
 .post {
   margin-bottom: 50px;
   padding: 45px 36px 36px 36px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   background-color: #fff;
-}
-.posts-expand .post-title {
-  font-size: 26px;
-  font-weight: 700;
 }
 .posts-expand .post-title-link::before {
   background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
